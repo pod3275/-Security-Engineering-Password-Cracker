@@ -24,7 +24,7 @@
  - You will be judged by the number of correct answers in the output file (\Passwords.txt") created by your program. There is the k=100 seconds time limit for running the code (we will measure the system time).
    
 ## 2. Environment
- - language : C++
+ - language : C
  - IDE : Microsoft Visual studio 2017
  
 ## 3. Result
