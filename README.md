@@ -26,6 +26,7 @@
 ## 2. Environment
  - language : C
  - IDE : Microsoft Visual studio 2017
+ - library : [OpenSSL](https://www.openssl.org/)
  
 ## 3. Result
 ### (1) 과제 접근
