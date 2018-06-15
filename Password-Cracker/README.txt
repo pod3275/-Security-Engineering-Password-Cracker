@@ -1,20 +1,22 @@
-1. ¼º´É Å×½ºÆ®
+1. Password Cracker
 
 hashlist.txt
 passwordlist.txt
 TestHash.c
 
-ÀÇ 3°³ÀÇ ÆÄÀÏÀ» ÇÑ ÇÁ·ÎÁ§Æ® Æú´õ ³»¿¡ À§Ä¡½ÃÄÑÁÖ½Ã°í, hashedPasswords.txt°¡ ÀÖ´Â »óÅÂ¿¡¼­ TestHash.c¸¦ ½ÇÇà½ÃÄÑÁÖ¼¼¿ä.
+ìƒìœ„ 3ê°œì˜ íŒŒì¼ì„ í•œ í”„ë¡œì íŠ¸ í´ë” ë‚´ì— ìœ„ì¹˜ì‹œí‚¤ê³ , hashedPasswords.txtê°€ ìžˆëŠ” ìƒíƒœì—ì„œ TestHash.cë¥¼ ì‹¤í–‰.
 
-È¤½Ã³ªÇØ¼­ ¸»¾¸µå¸®´Â °ÍÀÌÁö¸¸, VC 17 È¯°æ¿¡¼­ ÇÁ·ÎÁ§Æ® ¼Ó¼ºÀº Release - x64·Î ±¸Çö ¹× ½ÇÇàÇÏ¿´½À´Ï´Ù.
+VC 17 í™˜ê²½ì—ì„œ í”„ë¡œì íŠ¸ ì†ì„±ì€ Release - x64ë¡œ êµ¬í˜„ ë° ì‹¤í–‰.
 
 
 ----------------------------------------------------------------------------------------------------------
 
-2. Âü°í¿ë
+2. References
 
-Âü°í¿ë Æú´õ ³»¿¡ ÀÖ´Â 3°³ÀÇ ÆÄÀÏÀº ´Ü¼øÈ÷ Âü°í¿ëÀÌ°í, ±× ±â´ÉµéÀº º¸°í¼­¿¡ ±âÀçµÇ¾î ÀÖ½À´Ï´Ù.
+fastpbkdf2.c
+fastpbkdf2.h
+GenerateData.c
 
-¼º´É Å×½ºÆ® ¶§´Â ½ÇÇàÇÒ ÇÊ¿ä ¾ø½À´Ï´Ù.
+ìƒìœ„ 3ê°œì˜ íŒŒì¼ì€ ì£¼ìš” ê¸°ëŠ¥ì„ í•˜ëŠ” codeëŠ” ì•„ë‹˜. ê° ì½”ë“œì˜ ê¸°ëŠ¥ì€ ReadMe.mdì— ê¸°ìž¬ë˜ì–´ ìžˆìŒ.
 
-¸¸ÀÏ rainbow tableÀ» ¸¸µå´Â °úÁ¤±îÁö ½ÇÇàÇØ¾ß ÇÑ´Ù¸é, OpenSSLÀ» PC¿¡ ¼³Ä¡ÇÏ°í ÇÁ·ÎÁ§Æ®ÀÇ Æ÷ÇÔ ¹× ÂüÁ¶ ¶óÀÌºê·¯¸®¸¦ ¼³Á¤ÇÏ´Â ÀÛ¾÷ÀÌ ÇÊ¿äÇÕ´Ï´Ù.
+rainbow tableì„ ë§Œë“œëŠ” ê³¼ì •ì— ëŒ€í•´ì„œëŠ”, OpenSSLì„ ì„¤ì¹˜í•˜ê³  í”„ë¡œì íŠ¸ì˜ í¬í•¨ ë° ì°¸ì¡° ë¼ì´ë¸ŒëŸ¬ë¦¬ë¥¼ ì„¤ì •í•˜ëŠ” ìž‘ì—…ì´ í•„ìš”í•¨.
